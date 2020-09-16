@@ -4,8 +4,9 @@ import org.openqa.selenium.By;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import tests.BaseTest;
 
-public class AppiumEmaarOnePropertySelectionScreen extends BasePage {
+public class AppiumEmaarOnePropertySelectionScreen extends BaseTest {
 
 	public static  AndroidDriver<AndroidElement> clickProperty( AndroidDriver<AndroidElement> driver , String propertyName) throws Throwable 
 	{

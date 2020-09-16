@@ -3,8 +3,9 @@ package pages;
 import constants.AppiumEmaarOneHomeScreenRepo;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import tests.BaseTest;
 
-public class AppiumEmaarOneHomeScreen extends BasePage {
+public class AppiumEmaarOneHomeScreen extends BaseTest {
 	
 	public static  AndroidDriver<AndroidElement> selectRaiseServiceReq( AndroidDriver<AndroidElement> driver) throws Throwable 
 	{

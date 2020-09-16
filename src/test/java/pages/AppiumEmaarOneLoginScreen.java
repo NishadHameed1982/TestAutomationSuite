@@ -6,8 +6,9 @@ import constants.AppiumEmaarOneHomeScreenRepo;
 import constants.AppiumEmaarOneLoginScreenRepo;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import tests.BaseTest;
 
-public class AppiumEmaarOneLoginScreen extends BasePage {
+public class AppiumEmaarOneLoginScreen extends BaseTest {
 
 	public static  AndroidDriver<AndroidElement> loginEmaarOne( AndroidDriver<AndroidElement> driver, String userName, String password) throws Throwable 
 	{

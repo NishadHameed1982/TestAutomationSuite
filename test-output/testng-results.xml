@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Test Execution Time]]>
-    </line>
-    <line>
-      <![CDATA[Test Execution Time]]>
-    </line>
-    <line>
-      <![CDATA[Test Execution Time]]>
-    </line>
     <line>
       <![CDATA[Test Execution Time]]>
     </line>
@@ -17,80 +8,16 @@
       <![CDATA[Copy entire test result to the Test Result Excel Sheet]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="965307" started-at="2020-09-15T12:06:11 GST" finished-at="2020-09-15T12:22:16 GST">
+  <suite name="Suite" duration-ms="286897" started-at="2020-09-16T12:39:54 GST" finished-at="2020-09-16T12:44:41 GST">
     <groups>
     </groups>
-    <test name="EmaarOne Test Suite" duration-ms="965307" started-at="2020-09-15T12:06:11 GST" finished-at="2020-09-15T12:22:16 GST">
-      <class name="tests.TCA003_SRCreation_EmaarOne">
-        <test-method status="PASS" signature="TCA003_SRCreation(java.lang.reflect.Method)[pri:0, instance:tests.TCA003_SRCreation_EmaarOne@69b0fd6f]" name="TCA003_SRCreation" duration-ms="236606" started-at="2020-09-15T12:18:20 GST" description="Test Case 003" finished-at="2020-09-15T12:22:16 GST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.TCA003_SRCreation_EmaarOne.TCA003_SRCreation(java.lang.reflect.Method) throws java.lang.Throwable]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Test Execution Time]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TCA003_SRCreation -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.TCA003_SRCreation_EmaarOne@69b0fd6f]" name="getResult" is-config="true" duration-ms="0" started-at="2020-09-15T12:22:16 GST" finished-at="2020-09-15T12:22:16 GST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TCA003_SRCreation status=SUCCESS method=TCA003_SRCreation_EmaarOne.TCA003_SRCreation(java.lang.reflect.Method)[pri:0, instance:tests.TCA003_SRCreation_EmaarOne@69b0fd6f] output=Test Execution Time]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-      </class> <!-- tests.TCA003_SRCreation_EmaarOne -->
-      <class name="tests.TCA001_SRCreation_EmaarOne">
-        <test-method status="PASS" signature="testSuiteSetup()[pri:0, instance:tests.TCA001_SRCreation_EmaarOne@6a1aab78]" name="testSuiteSetup" is-config="true" duration-ms="130" started-at="2020-09-15T12:06:11 GST" finished-at="2020-09-15T12:06:11 GST">
+    <test name="EmaarOne Test Suite" duration-ms="286897" started-at="2020-09-16T12:39:54 GST" finished-at="2020-09-16T12:44:41 GST">
+      <class name="tests.TCA002_SRCreation_EmaarOne">
+        <test-method status="PASS" signature="testSuiteSetup()[pri:0, instance:tests.TCA002_SRCreation_EmaarOne@491cc5c9]" name="testSuiteSetup" is-config="true" duration-ms="122" started-at="2020-09-16T12:39:54 GST" finished-at="2020-09-16T12:39:54 GST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuiteSetup -->
-        <test-method status="PASS" signature="TCA001_SRCreation(java.lang.reflect.Method)[pri:0, instance:tests.TCA001_SRCreation_EmaarOne@6a1aab78]" name="TCA001_SRCreation" duration-ms="488141" started-at="2020-09-15T12:06:11 GST" description="Test Case 001" finished-at="2020-09-15T12:14:19 GST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.TCA001_SRCreation_EmaarOne.TCA001_SRCreation(java.lang.reflect.Method) throws java.lang.Throwable]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Test Execution Time]]>
-            </line>
-            <line>
-              <![CDATA[Test Execution Time]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- TCA001_SRCreation -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.TCA001_SRCreation_EmaarOne@6a1aab78]" name="getResult" is-config="true" duration-ms="3" started-at="2020-09-15T12:14:19 GST" finished-at="2020-09-15T12:14:19 GST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TCA001_SRCreation status=SUCCESS method=TCA001_SRCreation_EmaarOne.TCA001_SRCreation(java.lang.reflect.Method)[pri:0, instance:tests.TCA001_SRCreation_EmaarOne@6a1aab78] output=Test Execution Time]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:tests.TCA001_SRCreation_EmaarOne@6a1aab78]" name="tearDownAfterClass" is-config="true" duration-ms="407" started-at="2020-09-15T12:22:16 GST" finished-at="2020-09-15T12:22:17 GST">
-          <reporter-output>
-            <line>
-              <![CDATA[Copy entire test result to the Test Result Excel Sheet]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tearDownAfterClass -->
-      </class> <!-- tests.TCA001_SRCreation_EmaarOne -->
-      <class name="tests.TCA002_SRCreation_EmaarOne">
-        <test-method status="PASS" signature="TCA002_SRCreation(java.lang.reflect.Method)[pri:0, instance:tests.TCA002_SRCreation_EmaarOne@462d5aee]" name="TCA002_SRCreation" duration-ms="240516" started-at="2020-09-15T12:14:19 GST" description="Test Case 002" finished-at="2020-09-15T12:18:20 GST">
+        <test-method status="PASS" signature="TCA002_SRCreation(java.lang.reflect.Method)[pri:0, instance:tests.TCA002_SRCreation_EmaarOne@491cc5c9]" name="TCA002_SRCreation" duration-ms="286859" started-at="2020-09-16T12:39:54 GST" description="Test Case 002" finished-at="2020-09-16T12:44:41 GST">
           <params>
             <param index="0">
               <value>
@@ -104,17 +31,24 @@
             </line>
           </reporter-output>
         </test-method> <!-- TCA002_SRCreation -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.TCA002_SRCreation_EmaarOne@462d5aee]" name="getResult" is-config="true" duration-ms="1" started-at="2020-09-15T12:18:20 GST" finished-at="2020-09-15T12:18:20 GST">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.TCA002_SRCreation_EmaarOne@491cc5c9]" name="getResult" is-config="true" duration-ms="4" started-at="2020-09-16T12:44:41 GST" finished-at="2020-09-16T12:44:41 GST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TCA002_SRCreation status=SUCCESS method=TCA002_SRCreation_EmaarOne.TCA002_SRCreation(java.lang.reflect.Method)[pri:0, instance:tests.TCA002_SRCreation_EmaarOne@462d5aee] output=Test Execution Time]]]>
+                <![CDATA[[TestResult name=TCA002_SRCreation status=SUCCESS method=TCA002_SRCreation_EmaarOne.TCA002_SRCreation(java.lang.reflect.Method)[pri:0, instance:tests.TCA002_SRCreation_EmaarOne@491cc5c9] output=Test Execution Time]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:tests.TCA002_SRCreation_EmaarOne@491cc5c9]" name="tearDownAfterClass" is-config="true" duration-ms="404" started-at="2020-09-16T12:44:41 GST" finished-at="2020-09-16T12:44:41 GST">
+          <reporter-output>
+            <line>
+              <![CDATA[Copy entire test result to the Test Result Excel Sheet]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
       </class> <!-- tests.TCA002_SRCreation_EmaarOne -->
     </test> <!-- EmaarOne Test Suite -->
   </suite> <!-- Suite -->

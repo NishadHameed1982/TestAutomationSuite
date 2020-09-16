@@ -3,8 +3,9 @@ package pages;
 import constants.AppiumEmaarOneRequestDetailsScreenRepo;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import tests.BaseTest;
 
-public class AppiumEmaarOneRequestDetailsScreen extends BasePage{
+public class AppiumEmaarOneRequestDetailsScreen extends BaseTest{
 
 	public static  String getRequestNo( AndroidDriver<AndroidElement> driver ) throws Throwable 
 	{

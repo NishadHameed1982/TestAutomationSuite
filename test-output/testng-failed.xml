@@ -5,12 +5,20 @@
     <classes>
       <class name="tests.TCA001_SRCreation_EmaarOne">
         <methods>
-          <include name="tearDownAfterClass"/>
-          <include name="TCA001_SRCreation" invocation-numbers="0"/>
           <include name="testSuiteSetup"/>
+          <include name="TCA001_SRCreation" invocation-numbers="0"/>
           <include name="getResult"/>
+          <include name="tearDownAfterClass"/>
         </methods>
       </class> <!-- tests.TCA001_SRCreation_EmaarOne -->
+      <class name="tests.TCA002_SRCreation_EmaarOne">
+        <methods>
+          <include name="testSuiteSetup"/>
+          <include name="getResult"/>
+          <include name="tearDownAfterClass"/>
+          <include name="TCA002_SRCreation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.TCA002_SRCreation_EmaarOne -->
     </classes>
   </test> <!-- EmaarOne Test Suite(failed) -->
 </suite> <!-- Failed suite [Suite] -->

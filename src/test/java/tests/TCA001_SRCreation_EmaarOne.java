@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.aventstack.extentreports.ExtentTest;
-
 import constants.AppiumConstant;
 import constants.AppiumEmaarOneRequestDetailsScreenRepo;
 import pages.AppiumEmaarOneHomeScreen;
@@ -15,7 +13,6 @@ import pages.AppiumEmaarOneNewSRScreen;
 import pages.AppiumEmaarOnePropertySelectionScreen;
 import pages.AppiumEmaarOneRaiseSRScreen;
 import pages.AppiumEmaarOneRequestDetailsScreen;
-import pages.BasePage;
 import utilities.AppiumInitDriver;
 import utilities.AppiumTestCasePreCondition;
 import utilities.ExcelUtils;
@@ -23,7 +20,7 @@ import utilities.MultiScreenShot;
 import utilities.TestExecutionTime;
 
 
-public class TCA001_SRCreation_EmaarOne extends BasePage {
+public class TCA001_SRCreation_EmaarOne extends BaseTest {
 
 	@Test (priority = 0 , description = "Test Case 001")
 	public void TCA001_SRCreation(Method method) throws Throwable {

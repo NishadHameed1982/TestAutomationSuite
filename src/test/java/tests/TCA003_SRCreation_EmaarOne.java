@@ -13,7 +13,6 @@ import pages.AppiumEmaarOneNewSRScreen;
 import pages.AppiumEmaarOnePropertySelectionScreen;
 import pages.AppiumEmaarOneRaiseSRScreen;
 import pages.AppiumEmaarOneRequestDetailsScreen;
-import pages.BasePage;
 import utilities.AppiumInitDriver;
 import utilities.AppiumTestCasePreCondition;
 import utilities.ExcelUtils;
@@ -21,7 +20,7 @@ import utilities.MultiScreenShot;
 import utilities.TestExecutionTime;
 
 
-public class TCA003_SRCreation_EmaarOne extends BasePage {
+public class TCA003_SRCreation_EmaarOne extends BaseTest {
 
 	@Test (priority = 0 , description = "Test Case 003")
 	public void TCA003_SRCreation(Method method) throws Throwable {

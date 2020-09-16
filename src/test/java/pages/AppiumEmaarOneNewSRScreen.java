@@ -3,8 +3,9 @@ package pages;
 import constants.AppiumEmaarOneNewSRScreenRepo;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import tests.BaseTest;
 
-public class AppiumEmaarOneNewSRScreen extends BasePage {
+public class AppiumEmaarOneNewSRScreen extends BaseTest {
 
 	public static  AndroidDriver<AndroidElement> addCustomerComments( AndroidDriver<AndroidElement> driver , String customerComment) throws Throwable 
 	{

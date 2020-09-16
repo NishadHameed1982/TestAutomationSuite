@@ -1,11 +1,11 @@
 package pages;
 
-import org.openqa.selenium.By;
 import constants.AppiumEmaarOneLogoutScreen;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import tests.BaseTest;
 
-public class AppiumEmaarOneLogout extends BasePage {
+public class AppiumEmaarOneLogout extends BaseTest {
 
 	public static  void logout( AndroidDriver<AndroidElement> driver , String appName) throws Throwable 
 	{

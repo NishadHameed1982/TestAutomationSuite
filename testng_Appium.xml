@@ -8,9 +8,7 @@
 	</listeners>
 	<test thread-count="5" name="EmaarOne Test Suite">
 		<classes>
-			<class name="tests.TCA001_SRCreation_EmaarOne" />
 			<class name="tests.TCA002_SRCreation_EmaarOne" />
-			<class name="tests.TCA003_SRCreation_EmaarOne" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
